@@ -26,6 +26,35 @@ img {
     font-style: bold;
 }
 
+.botonera {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  font-size: 16px;
+  background-color: red;
+  width: 40%;
+  margin-top: 20px;
+  -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 20px #000;
+    border-radius: 10px;
+}
+
+.botonera > button {
+  width: 90px;
+  height: 35px;
+  margin: auto;
+}
+
+.botonera > button:hover {
+  width: 90px;
+  height: 35px;
+  margin: auto;
+  background-color: pink;
+  color: white;
+}
+
 #pagination-1 {
     width: 35%;
 }
@@ -52,7 +81,7 @@ footer {
     justify-content: space-around;
     margin-top: 30px; 
     width: 95%;
-    height: 500px;
+    height: 400px;
     background-color: white;
     -moz-box-shadow: 0 0 3px #000;
     -webkit-box-shadow: 0 0 3px #000;
