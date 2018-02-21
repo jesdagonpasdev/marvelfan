@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marvel Fan Stadistics</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simplePagination.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css" rel="stylesheet">
+</head>
+
+<body background="images/fondo.jpg" onload="totalVotos()">
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a class="brand-logo titulo">MARVEL FAN</a>
+            </div>
+        </nav>
+    </header>
+    <center>
+        <div>
+            <h5 style="color: white;">¿Que gráfico desea ver?</h5>
+            <button id="pie" value="pie">Pie en 3D</button>
+            <button id="donut" value="donut">Donut</button>
+            <button id="colum" value="pie">Columnas</button>
+        </div><br>
+    </center>
+    <center>
+    <div id="principal">
+        <div id="grafico1" style="width: 40%; height: 100%;"></div>
+        <div id="grafico2" style="width: 40%; height: 100%;"></div>
+    </div>
+    </center>
+    <footer>
+        Marvel. All Rights reserved.
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/stadistics.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize-pagination.js"></script>
+    <script type="text/javascript" src="js/jquery.simplePagination.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</body>
+
+</html>
